@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 45px;
+}
+body {
+    font-family: Bahnschrift, sans-serif;
+    color: white;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+input {
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    width: 360px;
+}
+textarea {
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 5px;
+    resize: none;
+    width: 360px;
+    height: 360px;
+}
+button {
+    background-color: #0d0;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px 85px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.2s
+}
+button:hover {
+    background-color: #0f0;
+    transform: scale(1.1)
+}
+.red-message {
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    border: 1px solid #ff6b6b;
+    border-radius: 12px;
+    background: #3a1818;
+    color: #ffdada;
+    box-shadow: 0 6px 20px #0006;
+    font-size: 16px;
+}
+.green-message {
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    border: 1px solid #6bff7c;
+    border-radius: 12px;
+    background: #183a1e;
+    color: #e0ffda;
+    box-shadow: 0 6px 20px #0006;
+    font-size: 16px;
+}
+#backBtn {
+    padding: 5px;
+    font-size: 25px;
+    background-color: #3e3e3e;
+    color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#backBtn:hover {
+    background-color: #aaa
+}
